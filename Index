@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linea C - Grupo 3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="img/DevVisionIcon.png" alt="Icono DevVision" width="80">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Principal</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Lineas del Subte</a></li>
+                <li><a href="https://santiago414.github.io/LineaDpaginaWeb/">Linea D</a></li>
+                <li><a href="#">Linea H</a></li>
+                <li><a href="#">Linea B</a></li>
+                <li><a href="#">Linea C</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="titulo">
+        <h1>Linea C</h1>
+    </div>
+
+    <div class="imagen">
+        <img src="img/Subte-Linea-C.jpg" alt="Linea C">
+    </div>
+
+    <div class="contenedor">
+        <h2>Sobre la Linea</h2>
+        <p>La Línea C del Subte de Buenos Aires es una de las líneas más importantes de la red porque funciona como conexión entre las estaciones terminales de los ferrocarriles más utilizados de la ciudad.</p>
+        <p>Une la estación Constitución con la estación Retiro, facilitando el traslado de miles de pasajeros que ingresan a la ciudad cada día.</p>
+    </div>
+
+    <div class="contenedor">
+        <h2>Mapa de la linea</h2>
+        <img src="img/combinaciones_C.jpg" alt="Mapa Linea C">
+    </div>
+
+    <div class="contenedor">
+        <h2>Estaciones</h2>
+        <p>La Línea C tiene la particularidad de combinar con todas las demás líneas del subte:</p>
+        <ul>
+            <li>Constitución: Cabecera sur, combina con el Ferrocarril Roca.</li>
+            <li>Independencia: Combina con la Línea E.</li>
+            <li>Moreno: Estación cercana al barrio de Monserrat.</li>
+            <li>Avenida de Mayo: Combina con la Línea A.</li>
+            <li>Diagonal Norte: Combina con la Línea B.</li>
+            <li>Lavalle: Combina con la Línea D.</li>
+            <li>General San Martín: Cercana a Plaza San Martín.</li>
+            <li>Retiro: Cabecera norte. Combina con ferrocarriles Mitre, San Martín y Belgrano Norte.</li>
+        </ul>
+    </div>
+
+    <div class="contenedor">
+        <h2>Horarios</h2>
+        <p>Lunes a viernes 05:30hs hasta las 23:00hs</p>
+        <p>Sábados 06:00hs hasta las 23:30hs</p>
+        <p>Domingos y feriados 08:00hs hasta las 22:30hs</p>
+    </div>
+
+    <div class="contenedor">
+        <h2>Estado de Accesibilidad</h2>
+        <p>Estaciones con ascensores desde la superficie al andén:</p>
+        <ul>
+            <li>Retiro</li>
+            <li>General San Martín</li>
+            <li>Diagonal Norte</li>
+            <li>Avenida de Mayo</li>
+            <li>Constitución</li>
+        </ul>
+        <p>Estaciones que no cuentan con accesibilidad completa:</p>
+        <ul>
+            <li>Lavalle</li>
+            <li>Moreno</li>
+            <li>Independencia</li>
+        </ul>
+    </div>
+
+    <!-- SECCIÓN NUEVA: COMBINACIONES CON OTRAS LINEAS -->
+    <div class="contenedor">
+        <h2>Combinaciones con otras lineas</h2>
+        <p>La Línea C combina con todas las demás líneas del subte. Conocé las páginas de las otras líneas desarrolladas por nuestros compañeros del grupo:</p>
+
+        <div class="enlace-linea">
+            <h3>Linea D</h3>
+            <p>Combina en la estación Lavalle.</p>
+            <a href="https://santiago414.github.io/LineaDpaginaWeb/">Ir a la pagina de la Linea D</a>
+        </div>
+
+        <div class="enlace-linea">
+            <h3>Linea B</h3>
+            <p>Combina en la estación Diagonal Norte.</p>
+            <a href="URL_LINEA_B">Ir a la pagina de la Linea B</a>
+        </div>
+
+        <div class="enlace-linea">
+            <h3>Linea H</h3>
+            <p>Combina con el corredor norte-sur de la ciudad.</p>
+            <a href="URL_LINEA_H">Ir a la pagina de la Linea H</a>
+        </div>
+
+        <div class="enlace-linea">
+            <h3>Linea A</h3>
+            <p>Combina en la estación Avenida de Mayo.</p>
+            <a href="URL_LINEA_A">Ir a la pagina de la Linea A</a>
+        </div>
+
+        <div class="enlace-linea">
+            <h3>Linea E</h3>
+            <p>Combina en la estación Independencia.</p>
+            <a href="URL_LINEA_E">Ir a la pagina de la Linea E</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>DevVision - Consultora Digital</p>
+        <p>Email: contacto@devvision.com</p>
+        <p>2026 - Todos los derechos reservados</p>
+    </div>
+
+</body>
+</html>
