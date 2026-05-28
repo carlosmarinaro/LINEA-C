@@ -22,6 +22,7 @@ body {
     line-height: 1.65;
     color: #333333;
     background-color: #f4f7fa;
+    overflow-x: hidden;
 }
 
 h1, h2 {
@@ -80,10 +81,6 @@ h1, h2 {
     background-color: #005d9a;
 }
 
-.imagen img {
-    width: 100%;
-}
-
 .contenedor {
     max-width: 1000px;
     margin: 20px auto;
@@ -119,10 +116,6 @@ h1, h2 {
 
 .contenedor a:hover {
     text-decoration: underline;
-}
-
-body {
-    overflow-x: hidden;
 }
 
 .mapa-scroll {
@@ -197,6 +190,10 @@ body {
         padding: 14px 8px;
         font-size: 1.1rem;
         border-top: 1px solid #ffffff;
+    }
+
+    .mapa-grande {
+        height: 400px;
     }
 }
 
