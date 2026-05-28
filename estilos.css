@@ -122,12 +122,16 @@ h1, h2 {
 }
 
 .mapa-scroll {
+    width: 100%;
     overflow-x: auto;
+    border: 1px solid #d8e2ea;
 }
 
 .mapa-grande {
-    width: 1400px;
+    height: 600px;
+    width: auto;
     max-width: none;
+    display: block;
 }
 
 .footer {
