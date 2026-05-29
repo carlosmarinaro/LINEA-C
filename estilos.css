@@ -117,7 +117,9 @@ h1, h2 {
 .contenedor a:hover {
     text-decoration: underline;
 }
-
+.contenedor > img {
+    margin: 0 auto;
+}
 .mapa-scroll {
     width: 100%;
     overflow-x: auto;
